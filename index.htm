@@ -30,9 +30,9 @@ Need a good VoIP provider? <a target="_blank" href="https://voip.ms/en/invite/MT
 <br><br>
 <hr>
 <h1> What's all this?</h1>
-Last updated: 20220224
+Last updated: 20230702
 
-<p><i>dialup.world</i> is (currently) a three-line dial-up ISP! Here is how it works:</p>
+<p><i>dialup.world</i> is (currently) a four-line dial-up ISP! Here is how it works:</p>
 
 <p>The phone number is registered via voip.ms, a VoIP "bring-your-own-device" provider. Using an asterisk-based PBX (Private Branch eXchange) running on a Rasbperry Pi, I can connect to voip.ms over the SIP (Session Initiation Protocol) protocol and this will allow calls to that number to come in to my PBX. What's great is that voip.ms allows as many incoming calls on the number as you want so if multiple people call the same phone number, it will just keep sending calls to my PBX whether someone is already dialed-in or not. Basic configuration to get voip.ms and your PBX talking is outlined here, <a target="_blank" href="https://wiki.voip.ms/article/Asterisk_SIP">https://wiki.voip.ms/article/Asterisk_SIP</a>.</p>
 
@@ -68,14 +68,15 @@ call-limit = 1
 </ul>
 </p>
 
-<p>One last bit of config on asterisk, we need to set up a hunt group in the <i>extensions.conf</i> file. This is a really dumb hunt group config where it will push incoming calls to the first extension, but if that number is engaged with another caller or otherwise isn't available it will go to the next extension and so on. If all extensions are in use, it'll eventually hang up.
+<p>One last bit of config on asterisk, we need to set up a hunt group in the <i>extensions.conf</i> file. <s></s>This is a really dumb hunt group config where it will push incoming calls to the first extension, but if that number is engaged with another caller or otherwise isn't available it will go to the next extension and so on.</s> Actually this isn't a hunt group, it rings everything at once and each modem knows to answer after a certain number of rings. If all extensions are in use, it'll eventually hang up.
 
 <pre>
 [from-voipms]
 exten =&gt; 4848201337,1,NoOP()
-        same =&gt; n,Dial(SIP/8927181,100,r)
-        same =&gt; n,ExecIf($["${DIALSTATUS}" != "ANSWER"]?Dial(SIP/8927182,100,r)
-        same =&gt; n,ExecIf($["${DIALSTATUS}" != "ANSWER"]?Dial(SIP/8927183,100,r)
+        same => n,Dial(SIP/8927181&SIP/8927182&SIP/8927183&SIP/8927184,30,m(ringback))
+        ;same =&gt; n,Dial(SIP/8927181,100,r)
+        ;same =&gt; n,ExecIf($["${DIALSTATUS}" != "ANSWER"]?Dial(SIP/8927182,100,r)
+        ;same =&gt; n,ExecIf($["${DIALSTATUS}" != "ANSWER"]?Dial(SIP/8927183,100,r)
         same =&gt; n,Hangup()
 </pre>
 </p>
