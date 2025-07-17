@@ -1,0 +1,3 @@
+[submodule "portmaster-password"]
+	path = portmaster-password
+	url = https://github.com/dialup-world/portmaster-password-recovery-wasm.git
