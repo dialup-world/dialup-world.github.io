@@ -30,7 +30,8 @@ mastodon:
         instance: oldbytes.space
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: huangyz0918/moving
 plugins:
   - jekyll-feed
 
