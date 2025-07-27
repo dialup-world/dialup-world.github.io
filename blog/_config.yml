@@ -23,7 +23,7 @@ email: famicoman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Running a dialup ISP for no reason. Bad ideas involving modems and telephony.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dialup-world.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dialup-world
 mastodon:
       - username: dialupworld
