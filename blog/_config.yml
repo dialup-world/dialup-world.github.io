@@ -31,7 +31,7 @@ mastodon:
 
 # Build settings
 #theme: minima
-remote_theme: no-style-please 
+theme: no-style-please 
 plugins:
   - jekyll-feed
 
