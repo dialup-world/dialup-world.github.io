@@ -7,8 +7,7 @@ github_username: dialup-world
 
 permalink: /:slug.html
 
-favicon: "favicon.png"
-goat_counter: "riggraz" # put your GoatCounter name if you want to use GoatCounter analytics
+#favicon: "favicon.png"
 
 # Build settings
 remote_theme: riggraz/no-style-please
