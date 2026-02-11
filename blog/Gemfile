@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
 gem 'no-style-please'
-gem "jekyll", "3.9"
+#gem "jekyll", "3.9"
+gem "jekyll", "4.0"
 gem "jekyll-feed"
 gem "jekyll-remote-theme"
 gem "jektex", "0.1.1"
