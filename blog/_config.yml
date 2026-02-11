@@ -31,9 +31,16 @@ mastodon:
 
 # Build settings
 #theme: minima
-theme: overkyll-jekyll-theme
+#theme: overkyll-jekyll-theme
+remote_theme: b2a3e8/jekyll-theme-console
 plugins:
   - jekyll-feed
+
+header_pages:
+  - index.md
+  - about.md
+style: light # dark (default), light, hacker, or nord
+listen_for_clients_preferred_style: true # false (default) or true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
