@@ -1,31 +1,38 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
 entries:
-  - title: Where to find me
+  - title: info
     entries:
-      - title: email
-        url: mailto:spirosmag@ieee.org
-      - title: github
-        url: https://github.com/spirosmaggioros/
-      - title: linkedin
-        url: https://linkedin.com/in/spirosmaggioros
-  - title: Publications
+      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
+      - title: github repo
+        url: https://github.com/riggraz/no-style-please
+      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: posts by category
+    post_list:
+      category: example2
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
+
+  - title: rss
+    url: feed.xml
+  
+  - title: another list
     entries:
-      - title: Google Scholar
-        url: https://scholar.google.com/citations?user=o7giwIEAAAAJ&hl=el
-      - title: Semantic Scholar
-        url: https://www.semanticscholar.org/author/Spiros-Maggioros/2292200227
-  - title: Projects(serious ones)
+      - title: with subitems
+        entries:
+          - title: with subsubitems
+          - title: example page
+            url: about
+  - title: PRO TIP
     entries:
-        - title: NiChart - Neuro Imaging Chart of AI-based Imaging Biomarkers
-          url: https://neuroimagingchart.com/
-        - title: ClusterXX(in production) - Clustering/Manifold/Decomposition methods in modern C++
-          url: https://github.com/spirosmaggioros/ClusterXX
-        - title: AlgoPlus
-          url: https://github.com/spirosmaggioros/AlgoPlus
-  - title: Papers i loved lately
-    entries:
-      - title: SAM - Segment Anything Model
-        url:  https://arxiv.org/pdf/2304.02643
-      - title: Christophides algorithm
-        url: https://web.archive.org/web/20190721172134/https://apps.dtic.mil/dtic/tr/fulltext/u2/a025602.pdf
-  - title: posts
-    post_list: true
+      - title: to edit this menu, edit _data/menu.yml file
