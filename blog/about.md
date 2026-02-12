@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
-This is an example page!
+`dialup.world` is, at its core, an experiment to turn trash into a free-to-use dial-up ISP.
 
-It's very similar to a `post` layout, with the only difference that the publish date is not shown!
+Over time however, this has expanded to playing with other modem-enabled and early-Internet devices.
+
+Join us as we dive deep into the dumpster of misfit telecom gear!

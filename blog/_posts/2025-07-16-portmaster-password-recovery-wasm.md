@@ -28,12 +28,22 @@ emcc mz_web.c -o mz_web.js \
   -sMODULARIZE -sENVIRONMENT=web
 ```
 
-This generates `mz_web.js` and` mz_web.wasm`.
+This generates `mz_web.js` and `mz_web.wasm`.
 
 Full code for this can be found in the [portmaster-password-recovery-wasm](https://github.com/dialup-world/portmaster-password-recovery-wasm) repository.
 
-## Live Demo
+## Live Demo & Usage
 
-A live demo is available at https://dialup.world/portmaster-password/. It seems to work in FireFox, Chrome, and Safari.
+A live demo is available at [https://dialup.world/portmaster-password/](https://dialup.world/portmaster-password/). It seems to work in FireFox, Chrome, and Safari.
 
 Anyone is free to run and host this themselves, it's as easy as cloning the repository and dropping the directory on a web server.
+
+Upon loading the page you can follow these instructions on your Portmaster:
+
+1. At login prompt enter: `!root`
+2. At password prompt enter: `override`
+3. Copy the 16 character `<CHALLENGE_STRING>` and enter it into the webpage to receive a `<RESPONSE_STRING>`
+4. At login prompt enter again: `!root`
+5. At password prompt enter: `<RESPONSE_STRING>`
+6. Be sure to change password set password `<pw>` and save it via `save all`
+
