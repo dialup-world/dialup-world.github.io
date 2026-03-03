@@ -11,3 +11,5 @@ The dialup.world website
 
 An experiment in bad ideas.
 ```
+
+Dithered images created with https://ditherit.com/
