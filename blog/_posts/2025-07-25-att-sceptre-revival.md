@@ -6,7 +6,7 @@ title: "Reviving the AT&T Sceptre"
 
 I don't know when I first became aware of the AT&T Sceptre. It was several years ago; I think someone posted a photo of one somewhere and I became instantly mesmerized by the weird little beige box. I always liked the design language of the basic set-top-box with black bezel and an iconic "AT&T" logo. It reminded me of AT&T's much older Dataphone line of modems (the Dataphone II, or Dataphone 300 specifically, and apparently the Sceptre shares some of the same DNA with the older models), but in larger footprint and a touch more approachability. This is something that could sit in the family room, not just the home office.
 
-{% include dithered_image_link/html img_folder="2025-07-25-att-sceptre-revival" link_img="sceptre-01.jpeg" small_img="sceptre-01-sm.jpg" dith_img="sceptre-01-sm-d.png" text="An AT&T Sceptre posing with Comdial 3500S phone." %}
+{% include dithered_image_link.html img_folder="2025-07-25-att-sceptre-revival" link_img="sceptre-01.jpeg" small_img="sceptre-01-sm.jpg" dith_img="sceptre-01-sm-d.png" text="An AT&T Sceptre posing with Comdial 3500S phone." %}
 
 At the time, all I really knew about it was that it was some device that you'd connect to a television set. "WebTV but in the '80s" was how I had seen it described, and looking back this is a pretty appropriate description.
 
