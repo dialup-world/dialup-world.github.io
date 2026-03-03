@@ -10,7 +10,7 @@ After buying a Livinston/Lucent Portmaster 2 a while back and being locked out o
 	link_img="portmaster-01.jpeg" 
 	small_img="portmaster-01-sm.jpg" 
 	dith_img="portmaster-01-sm-d.png" 
-	text="A Portmaster 2e and a Portmaster 3" 
+	text="A Portmaster 2e and a Portmaster 3." 
 %}
 
 From what I can gather, the Portmaster has no local reset procedure, even if you have physical access to the machine, but will give you a _challenge code_ in the event that you no longer have the password. Back in the '90s you could provide this code to customer support who would then return to you a _response code_ (essentially just an MD5 digest composed of the CHALLENGE code and some extra bytes) that could be used to get into the machine. At that point you could change your password and carry on with your day.

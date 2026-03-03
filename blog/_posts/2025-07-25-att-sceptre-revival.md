@@ -49,13 +49,45 @@ The Sceptre seemingly has a lot of horsepower for a terminal. The basic specs ar
 - Full IR wireless keyboard, powered by 9V battery
 - 1200/75 baud 7-bit modem
 
-The terminal has a hard-wired power supply, with large external transformer (there are rumors that later revisions with detachable supplies existed), composite and RF video output, two RJ11 jacks for line and phone, and a DB25 port for printer support (though apparently this only supported very specific models, if at all).
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-02.jpeg" 
+	small_img="sceptre-02-sm.jpg" 
+	dith_img="sceptre-02-sm-d.png" 
+	text="An AT&T Sceptre from the front." 
+%}
+
+The terminal has a hard-wired power supply, with large external transformer ([there is a later revision with a detachable cord as well](https://github.com/dialup-world/att-sceptre/tree/main/photos/integrated-psu), and it looks like it also has two boards in the same housing to accommodate an integrated power supply!), composite and RF video output, two RJ11 jacks for line and phone, and a DB25 port for printer support (though apparently this only supported very specific models, if at all).
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-03.jpeg" 
+	small_img="sceptre-03-sm.jpg" 
+	dith_img="sceptre-03-sm-d.png" 
+	text="An AT&T Sceptre rear ports." 
+%}
 
 The transformer is rated to take an input of 120VAC, 60Hz, 0.41A. The output is 26VAC, 40VA.
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-06.jpeg" 
+	small_img="sceptre-06-sm.jpg" 
+	dith_img="sceptre-06-sm-d.png" 
+	text="An AT&T Sceptre's transformer." 
+%}
 
 The system is passively cooled and has vents in the plastic housing. Only 4 captive flat-head (very AT&T of them) screws keep the case together.
 
 My unit has an AT&T sticker stating that this is a modem CS1200B01 control unit with serial number `547000989`. There is also a stamp on this sticker reading `84321`, possibly a date code meaning the 21st day of the third month of 1984 or the first day of the 32nd week of 1984. There is also a sticker stating that this Sceptre is the properly of Gateway, with a code `520864`, likely an asset tag. This is an indicator that this Sceptre was used for the Times Mirror Gateway service.
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-04.jpeg" 
+	small_img="sceptre-04-sm.jpg" 
+	dith_img="sceptre-04-sm-d.png" 
+	text="An AT&T Sceptre's motherboard." 
+%}
 
 Inside are a slew of ICs:
 
@@ -94,11 +126,35 @@ Inside are a slew of ICs:
 
 The Western Electric and AT&T chips have unknown purposes.
 
-The board also seems to have a rechargable 3V battery soldered on, which should probably be replaced.
+The board also seems to have a rechargeable 3V battery soldered on, which should probably be replaced. Something I always find interesting are the bodges done on the board after manufacturing. There are quite a few here.
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-05.jpeg" 
+	small_img="sceptre-05-sm.jpg" 
+	dith_img="sceptre-05-sm-d.png" 
+	text="An AT&T Sceptre's transformer." 
+%}
 
 The keyboard is powered by 9-volt battery and communicates with the terminal via infrared. It has 67 keys, utilizing a membrane, including a set of function keys that seem to have an overlay sticker for the service the terminal was to be used for. My keyboard is branded "AT&T Sceptre" though others seem to be branded "[American Bell](https://github.com/dialup-world/att-sceptre/tree/main/photos/american-bell-viewtron-keyboard)."
 
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-07.jpeg" 
+	small_img="sceptre-07-sm.jpg" 
+	dith_img="sceptre-07-sm-d.png" 
+	text="An AT&T Sceptre's keyboard." 
+%}
+
 This keyboard has a Western Electric sticker marking this as a model CS1000A01 keyboard with serial number `066007322`. There is a second sticker with the Times Mirror company logo and the number `086868`, likely an asset tag. In red ink stamped on the back is the numeric string `08084`, likely a manufacturing date code corresponding to something like the eighth week of 1984.
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-08.jpeg" 
+	small_img="sceptre-08-sm.jpg" 
+	dith_img="sceptre-08-sm-d.png" 
+	text="The back of an AT&T Sceptre's keyboard." 
+%}
 
 Three Phillips head screws hold the keyboard together. Two screws are visible on the back of the unit while the third is under a pad in the battery compartment.
 
@@ -106,6 +162,14 @@ The ICs in the keyboard are:
 
 - 1x SAA 1250 - infrared remote-control transmitter
 - 1x CD4011BE - quad 2-input NAND gate
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-09.jpeg" 
+	small_img="sceptre-09-sm.jpg" 
+	dith_img="sceptre-09-sm-d.png" 
+	text="The PCB in an AT&T Sceptre's keyboard." 
+%}
 
 All button-press signals, including permutations via the `Shift` and `Ctrl` modifier keys were captured via Flipper Zero and are available [here](https://github.com/dialup-world/att-sceptre/tree/main/infrared). With these signals captured, the original keyboard is not needed for operation provided the user has some other way to send these signals.
 
@@ -126,6 +190,14 @@ It didn't really occur to me previously that artists would use NAPLPS as a mediu
 - http://cd.textfiles.com/simtel/simtel20/MSDOS/NAPLPS/.index.html
 - https://github.com/n1ckfg/Telidon
 - John Durno's own `boom.nap` via https://dspace.library.uvic.ca/items/599ee778-0bac-452e-9624-b5c04832a0d7
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-17.jpeg" 
+	small_img="sceptre-17-sm.jpg" 
+	dith_img="sceptre-17-sm-d.png" 
+	text="The `boom.nap` graphic rendered to the screen." 
+%}
 
 ## Making a Connection
 
@@ -164,6 +236,14 @@ The Sceptre also needs to be configured with connection settings that match our 
 
 Note that the phone number `5555555` can really be anything with this setup. By default, the Viking line simulator acts as a "ringdown line" meaning if either party goes off-hook it instantly calls the other, regardless of the number dialed.
 
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-10.jpeg" 
+	small_img="sceptre-10-sm.jpg" 
+	dith_img="sceptre-10-sm-d.png" 
+	text="Any existing connection set up for the Gateway service." 
+%}
+
 Then press `RETURN` to save. Press `MODE` to return to the _Mode Select_ screen and `1` to go back to the _Data Base Access_ screen. From here you can press the digit of the entry you made to start the call.
 
 After starting the call, we go back to the Tera Term session and wait to see `RING` coming from the modem, indicating an incoming call. We then enter in `ATA` to answer and we are now connected to the Sceptre.
@@ -176,7 +256,23 @@ Well, sort of.
 
 For me, I had some drawing but a lot of parity error messages being printed to the screen as I initially had parity set on the Sceptre side (the configuration above is corrected if you're playing around at home). 
 
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-13.jpeg" 
+	small_img="sceptre-13-sm.jpg" 
+	dith_img="sceptre-13-sm-d.png" 
+	text="A shark NAPLPS file rendering with errors." 
+%}
+
 After fixing that, I had graphics rendering just fine any time I drag-dropped a file!
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-15.jpeg" 
+	small_img="sceptre-15-sm.jpg" 
+	dith_img="sceptre-15-sm-d.png" 
+	text="A shark NAPLPS file rendering as expected." 
+%}
 
 ## Writing a Server
 
@@ -420,6 +516,14 @@ We allow the serial device to be passed in as an argument, so we make sure we us
 
 That's all there is to it. Connecting to a server running this from the Sceptre will result in images being rendered in a loop indefinitely. There will still be an occasional hiccup resulting in the image not rendering properly but it seems fairly stable.
 
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-16.jpeg" 
+	small_img="sceptre-16-sm.jpg" 
+	dith_img="sceptre-16-sm-d.png" 
+	text="A "Beers & Beermaking" graphic." 
+%}
+
 ## Demo Line & Exhibition
 
 The next step was to allow others to connect to this service. I configured one of my PBXs to allow connection from a few different ways:
@@ -437,6 +541,14 @@ The next step was to allow others to connect to this service. I configured one o
 One of the benefits of NAPLPS being a standard is that this _should_ work for other terminals aside from just the Sceptre. I haven't had anyone confirm, but I would love to see if Telidon, Keyfax, or Alextel terminals can make a connection.
 
 In October of 2025 the setup was taken to JawnCon and put on display at the PhilTel booth. For two days it was running for about eight hours a day, happily displaying graphics.
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-18.jpeg" 
+	small_img="sceptre-18-sm.jpg" 
+	dith_img="sceptre-18-sm-d.png" 
+	text="The Sceptre at JawnCon among other devices at the booth." 
+%}
 
 I ultimately made a video about the Sceptre and server software I wrote which went up on my YouTube channel in late December 2025.
 
