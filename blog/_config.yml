@@ -15,7 +15,7 @@ remote_theme: riggraz/no-style-please
 theme_config:
   appearance: "light"
   back_home_text: "← back" # customize text for homepage link in post layout
-  date_format: "%Y-%m" # customize how date is formatted in post list
+  date_format: "%Y-%m-%d" # customize how date is formatted in post list
   show_description: true # show blog description in home page
   lowercase_titles: true
 

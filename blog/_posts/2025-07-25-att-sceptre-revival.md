@@ -432,7 +432,7 @@ In October of 2025 the setup was taken to JawnCon and put on display at the Phil
 
 I ultimately made a video about the Sceptre and server software I wrote which went up on my YouTube channel in January of 2026.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a2dxuqol0c0?si=GSzibq-diZp4i8wB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style=" width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/a2dxuqol0c0?si=GSzibq-diZp4i8wB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Next Steps
 
