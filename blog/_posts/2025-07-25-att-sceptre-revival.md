@@ -6,6 +6,8 @@ title: "Reviving the AT&T Sceptre"
 
 I don't know when I first became aware of the AT&T Sceptre. It was several years ago; I think someone posted a photo of one somewhere and I became instantly mesmerized by the weird little beige box. I always liked the design language of the basic set-top-box with black bezel and an iconic "AT&T" logo. It reminded me of AT&T's much older Dataphone line of modems (the Dataphone II, or Dataphone 300 specifically, and apparently the Sceptre shares some of the same DNA with the older models), but in larger footprint and a touch more approachability. This is something that could sit in the family room, not just the home office.
 
+{% include dithered_image_link/html img_folder="2025-07-25-att-sceptre-revival" link_img="sceptre-01.jpeg" small_img="sceptre-01-sm.jpg" dith_img="sceptre-01-sm-d.png" text="An AT&T Sceptre posing with Comdial 3500S phone." %}
+
 At the time, all I really knew about it was that it was some device that you'd connect to a television set. "WebTV but in the '80s" was how I had seen it described, and looking back this is a pretty appropriate description.
 
 I had an eBay saved-search set for years trying to get one, but the few that were listed always sold for too high of a price. I never really understood why, or who was buying them. The original services were long offline and from some minimal searching there wasn't any project of hobbyists building a new one. Maybe the people purchasing them were enamored just as I was, and wanted one simply to look at or a fill a hole in some weird telephone ephemera collection.
@@ -430,7 +432,7 @@ One of the benefits of NAPLPS being a standard is that this _should_ work for ot
 
 In October of 2025 the setup was taken to JawnCon and put on display at the PhilTel booth. For two days it was running for about eight hours a day, happily displaying graphics.
 
-I ultimately made a video about the Sceptre and server software I wrote which went up on my YouTube channel in January of 2026.
+I ultimately made a video about the Sceptre and server software I wrote which went up on my YouTube channel in late December 2025.
 
 <iframe style=" width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/a2dxuqol0c0?si=GSzibq-diZp4i8wB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
