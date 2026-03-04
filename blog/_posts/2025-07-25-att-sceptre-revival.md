@@ -521,7 +521,7 @@ That's all there is to it. Connecting to a server running this from the Sceptre 
 	link_img="sceptre-16.jpeg" 
 	small_img="sceptre-16-sm.jpg" 
 	dith_img="sceptre-16-sm-d.png" 
-	text="A \"Beers & Beermaking\" graphic." 
+	text="A 'Beers & Beermaking' graphic." 
 %}
 
 ## Demo Line & Exhibition
