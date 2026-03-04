@@ -1,4 +1,5 @@
 # dialup.world
+
 The dialup.world website
 
 ```
@@ -11,5 +12,13 @@ The dialup.world website
 
 An experiment in bad ideas.
 ```
+
+The root directory is a plain HTML site.
+
+The `/blog` directory is a jekyll blog`
+
+The `/portmaster-password` directory is a `git` submodule to a working demo for [portmaster-password-recovery-wasm](https://github.com/dialup-world/portmaster-password-recovery-wasm/).
+
+## Notes
 
 Dithered images created with https://ditherit.com/
