@@ -20,6 +20,9 @@
           {% else %}
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           {% endif %}
+		  {% if post.in_progress == true %}
+		  <span>IN PROGRESS</span>
+		  {% endif %}
         </li>
     {%- endfor -%}
     {%- if include.show_more and limit_exceeded -%}
