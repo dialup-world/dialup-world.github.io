@@ -187,9 +187,9 @@ It cannot be overstated how much of the artwork and knowledge around NAPLPS woul
 
 It didn't really occur to me previously that artists would use NAPLPS as a medium for their work, but I grew to understand how it could be fun to work with and how portable it was. Luckily, a lot of these works live on as `.nap` files and can be found all over the Internet. A few places I found files includes:
 
-- http://cd.textfiles.com/simtel/simtel20/MSDOS/NAPLPS/.index.html
-- https://github.com/n1ckfg/Telidon
-- John Durno's own `boom.nap` via https://dspace.library.uvic.ca/items/599ee778-0bac-452e-9624-b5c04832a0d7
+- <http://cd.textfiles.com/simtel/simtel20/MSDOS/NAPLPS/.index.html>
+- <https://github.com/n1ckfg/Telidon>
+- John Durno's own `boom.nap` via <https://dspace.library.uvic.ca/items/599ee778-0bac-452e-9624-b5c04832a0d7>
 
 {% include dithered_image_link.html 
 	img_folder="2025-07-25-att-sceptre-revival" 
@@ -572,15 +572,15 @@ That RS-232 port on the back seems like a lot of fun, even if it could only be l
 
 ## Sources
 
-- https://en.wikipedia.org/wiki/Telidon
-- https://en.wikipedia.org/wiki/Videotex
-- https://en.wikipedia.org/wiki/NAPLPS
-- https://en.wikipedia.org/wiki/Viewtron
-- https://en.wikipedia.org/wiki/AT%26T_Sceptre
-- https://en.wikipedia.org/wiki/Chemical_Bank
-- https://en.wikipedia.org/wiki/Prodigy_(online_service)
-- https://en.wikipedia.org/wiki/NABTS
-- https://en.wikipedia.org/wiki/Alex_(videotex_service)
-- https://scruss.com/blog/2023/09/18/the-glorious-futility-of-generating-naplps-in-2023/
-- https://www.youtube.com/watch?v=0BKRfM5HHSM
-- https://www.remembertomorrow.ca/en-ca
+- <https://en.wikipedia.org/wiki/Telidon>
+- <https://en.wikipedia.org/wiki/Videotex>
+- <https://en.wikipedia.org/wiki/NAPLPS>
+- <https://en.wikipedia.org/wiki/Viewtron>
+- <https://en.wikipedia.org/wiki/AT%26T_Sceptre>
+- <https://en.wikipedia.org/wiki/Chemical_Bank>
+- <https://en.wikipedia.org/wiki/Prodigy_(online_service)>
+- <https://en.wikipedia.org/wiki/NABTS>
+- <https://en.wikipedia.org/wiki/Alex_(videotex_service)>
+- <https://scruss.com/blog/2023/09/18/the-glorious-futility-of-generating-naplps-in-2023/>
+- <https://www.youtube.com/watch?v=0BKRfM5HHSM>
+- <https://www.remembertomorrow.ca/en-ca>
