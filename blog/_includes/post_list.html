@@ -21,7 +21,7 @@
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           {% endif %}
 		  {% if post.in_progress == true %}
-		  <span>IN PROGRESS</span>
+		  <span>[in progress]</span>
 		  {% endif %}
         </li>
     {%- endfor -%}

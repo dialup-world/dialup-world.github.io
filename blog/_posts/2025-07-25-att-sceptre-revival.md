@@ -2,7 +2,6 @@
 layout: post
 category: projects
 title: "Reviving the AT&T Sceptre"
-in_progress: true
 ---
 
 I don't know when I first became aware of the AT&T Sceptre. It was several years ago; I think someone posted a photo of one somewhere and I became instantly mesmerized by the weird little beige box. I always liked the design language of the basic set-top-box with black bezel and an iconic "AT&T" logo. It reminded me of AT&T's much older Dataphone line of modems (the Dataphone II, or Dataphone 300 specifically, and apparently the Sceptre shares some of the same DNA with the older models), but in larger footprint and a touch more approachability. This is something that could sit in the family room, not just the home office.
