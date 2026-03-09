@@ -205,7 +205,25 @@ The next step was to find a way to connect the Sceptre up to a computer so NAPLP
 
 Luckily, I found a video of a _different_ NAPLPS-compatible terminal being sent files and rendering them! The video, [Vintage Bell Alextel computer terminal can display graphics! by vintagecomputer.ca](https://www.youtube.com/watch?v=0BKRfM5HHSM&t=653s), showcases a [Bell Alextel](https://en.wikipedia.org/wiki/Alex_(videotex_service)), a monochrome clamshell-style terminal that I hope to get my hands on someday.
 
-To connect the terminal to a host computer, the video shows a telephone line simulator to emulate a telephone network as well as some sort of modem running on the computer side to act as the counterpart to the modem in the Sceptre. I decided to use a [Viking DLE-200B](https://vikingelectronics.com/products/dle-200b/) as my line simulator since I had one already and thought it would be more reliable than using VoIP or a PBX for testing purposes. For the modem, I used a cheap Conexant USB modem and wired everything up with standard 2-wire telephone cabling.
+To connect the terminal to a host computer, the video shows a telephone line simulator to emulate a telephone network as well as some sort of modem running on the computer side to act as the counterpart to the modem in the Sceptre. I decided to use a [Viking DLE-200B](https://vikingelectronics.com/products/dle-200b/) as my line simulator since I had one already and thought it would be more reliable than using VoIP or a PBX for testing purposes.
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-109.jpeg" 
+	small_img="sceptre-19-sm.jpg" 
+	dith_img="sceptre-19-sm-d.png" 
+	text="A Viking DLE-200B." 
+%}
+
+For the modem, I used a cheap Conexant RD02-D400 USB modem and wired everything up with standard 2-wire telephone cabling.
+
+{% include dithered_image_link.html 
+	img_folder="2025-07-25-att-sceptre-revival" 
+	link_img="sceptre-20.jpeg" 
+	small_img="sceptre-20-sm.jpg" 
+	dith_img="sceptre-20-sm-d.png" 
+	text="A Conexant RD02-D400 USB modem." 
+%}
 
 To recreate the setup of the host computer, I used a machine running Windows 10 with the open-source [Tera Term](https://teratermproject.github.io/index-en.html) software.
 
