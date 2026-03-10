@@ -17,7 +17,13 @@ An experiment in bad ideas.<br><br>
 
 We are a dial-up ISP!<br><br>
 
-Tel: <b>484.820.1337</b> (US Only) (On <a target="_blank" href="https://portal.phreaknet.org/">phreaknet</a>? Dial <b>892.7180)</b><br>
+Telephone: 
+<ul>
+<li>PSTN: <b>484-820-1337</b> (US/Canada Only)</li>
+<li><a target="_blank" href="https://portal.phreaknet.org/">PhreakNet</a>: <b>892-7180</b>
+<li>7Tel: <b>0246737111,,,8927180</b>
+<li><a href="#sip">SIP</a></li>
+</ul>
 User: <b>world</b><br>
 Password: <b>dialup</b><br><br>
 
@@ -29,6 +35,7 @@ We are WebTV compatible and supply dialup services for <a target="_blank" href="
 
 <b>Table of Contents</b><br>
 <ul>
+<li><a href="#sip">SIP</a></li>
 <li><a href="#proxies">Proxies</a></li>
 <li><a href="#whatsallthis">What's all this?</a></li>
 <li><a href="#version1">Version 1.0</a></li>
@@ -37,11 +44,22 @@ We are WebTV compatible and supply dialup services for <a target="_blank" href="
 <img src="twopointoh.jpg" onmouseover="this.src='./twopointoh_gameboy.jpg';" onmouseout="this.src='./twopointoh.jpg';">
 <br><br>
 <hr>
+<h1 id="sip">SIP</h1>
+<p>We have credentials for a direct SIP connection. Pleas use the following:</p>
+<ul>
+<li>Server: <b>sip.webtv.zone:16555</b></li>
+<li>User: <b>redialed</b></li>
+<li>Secret: <b>redialed2</b></li>
+<li>Codec: <b>ulaw</b></li>
+<li>Number: <b>any</b></li>
+</ul>
+
+<hr>
 <h1 id="proxies">Proxies</h1>
 <p>We are running our own <a target="_blank" href="https://github.com/atauenis/webone">WebOne Proxy</a> at <i>192.168.31.31:8080</i>. Add it as a system or browser level HTTP proxy and you can access any HTTPS website by usinng its corresponding HTTP URL.</p>
 
 <p>Want to surf the web like it's the '90s? Try using a <a target="_blank" href="https://protoweb.org/">Protoweb proxy</a> or a <a target="_blank" href="https://theoldnet.com/docs/httpproxy/index.html">TheOldNet proxy</a>.</p>
-<br><br>
+
 <hr>
 <h1 id="whatsallthis">What's all this?</h1>
 Last updated: 20230718
@@ -108,7 +126,6 @@ exten =&gt; 4848201337,1,NoOP()
 
 <p>Questions or comments? Let me know!</p>
 
-<br><br>
 <hr>
 <h1 id="version1">Version 1.0</h1>
 Last updated: 20210716
@@ -119,7 +136,7 @@ Last updated: 20210716
 
 <p>The computer I used was an old Dell Pentium 4 machine that was pretty horrible but will be fine as our ISP box. I decided to run Windows Server 2003 because I'm a masochist, and knew eventually I would move things to a Linux box because that would work better. Seriously, I hadn't used Windows Server since 2005 so I don't know why I thought this would be fun. Anyway, I followed Cathode Ray Dude's guide to configure a Dialup RAS here, <a target="_blank" href="https://gekk.info/articles/ras_2k3.html">https://gekk.info/articles/ras_2k3.html</a>. I didn't change a thing aside from making the ONLY auth type <b>PAP</b>. I initially checked all the boxes for all the auth types, but it seems that Windows 3.11 THINKS it knows CHAP/MSCHAP but it doesn't actually, and PAP should work fine with everything you throw at this.</p>
 
-<p>Connecting the modems to the computer is fairly simple. Your computer should have one or more DE-9 ports for serial and you just need as many DE-9 to DB-25 cables as you have ports/modems. My PC had only one DE-9 port so I bought this PCI cart to get two more DE-9 ports, <a target="_blank" href="https://www.amazon.com/dp/B00166RIAC?psc=1&amp;ref=ppx_yo2_dt_b_product_details">https://www.amazon.com/dp/B00166RIAC?psc=1&ref;=ppx_yo2_dt_b_product_details</a>. Of course, Server 2003 doesn't know where the drivers for this are, and the included drivers disc DOES NOT COME WITH THE DRIVERS FOR THIS CARD (how) so I found them online and then it all worked as expected, <a href="./MCS9865_WHQL.zip">MCS9865_WHQL.zip</a>. If you can get working Server 2003 drivers for a cheaper PCI (not express) card or you can get modems to identify when plugged into a USB/Serial adapter on Server 2003, let me know and I'll put the info in here! Connecting modems to your PC through the proper ports and cables and then turning them on should result in Server 2003 identifying them and automatically configuring them for the RAS. The first time you turn the modem on the Server might BSOD (mine did) but it will be fine after a restart and then you can power on/off the modem at will and no crashes.</p>
+<p>Connecting the modems to the computer is fairly simple. Your computer should have one or more DE-9 ports for serial and you just need as many DE-9 to DB-25 cables as you have ports/modems. My PC had only one DE-9 port so I bought this PCI cart to get two more DE-9 ports, <a target="_blank" href="https://www.amazon.com/dp/B00166RIAC">https://www.amazon.com/dp/B00166RIAC</a>. Of course, Server 2003 doesn't know where the drivers for this are, and the included drivers disc DOES NOT COME WITH THE DRIVERS FOR THIS CARD (how) so I found them online and then it all worked as expected, <a href="./MCS9865_WHQL.zip">MCS9865_WHQL.zip</a>. If you can get working Server 2003 drivers for a cheaper PCI (not express) card or you can get modems to identify when plugged into a USB/Serial adapter on Server 2003, let me know and I'll put the info in here! Connecting modems to your PC through the proper ports and cables and then turning them on should result in Server 2003 identifying them and automatically configuring them for the RAS. The first time you turn the modem on the Server might BSOD (mine did) but it will be fine after a restart and then you can power on/off the modem at will and no crashes.</p>
 
 <br><br>&#127279; Pinargio Pizza 2023
 </body>
