@@ -2,7 +2,7 @@ title: dialup.world/blog
 email: famicoman@gmail.com
 description: "modem stuff and things"
 baseurl: "/blog"
-url: "https://dialup-world.github.io"
+url: "https://dialup.world"
 github_username: dialup-world
 
 permalink: /:slug.html
