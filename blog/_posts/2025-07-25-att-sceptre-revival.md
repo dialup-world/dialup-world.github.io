@@ -86,7 +86,7 @@ My unit has an AT&T sticker stating that this is a modem CS1200B01 control unit 
 	link_img="sceptre-04.jpeg" 
 	small_img="sceptre-04-sm.jpg" 
 	dith_img="sceptre-04-sm-d.png" 
-	text="An AT&T Sceptre's motherboard." 
+	text="An AT&T Sceptre's bottom." 
 %}
 
 Inside are a slew of ICs:
@@ -133,7 +133,7 @@ The board also seems to have a rechargeable 3V battery soldered on, which should
 	link_img="sceptre-05.jpeg" 
 	small_img="sceptre-05-sm.jpg" 
 	dith_img="sceptre-05-sm-d.png" 
-	text="An AT&T Sceptre's transformer." 
+	text="An AT&T Sceptre's motherboard." 
 %}
 
 The keyboard is powered by 9-volt battery and communicates with the terminal via infrared. It has 67 keys, utilizing a membrane, including a set of function keys that seem to have an overlay sticker for the service the terminal was to be used for. My keyboard is branded "AT&T Sceptre" though others seem to be branded "[American Bell](https://github.com/dialup-world/att-sceptre/tree/main/photos/american-bell-viewtron-keyboard)."
